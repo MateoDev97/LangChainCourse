@@ -41,7 +41,7 @@ def main() -> None:
     Hijo de inmigrantes cubanos, ha sido legislador de Florida, fue uno de los senadores en el Congreso de los Estados Unidos con raíces cubanas. Rubio fue precandidato del Partido Republicano para las elecciones presidenciales de Estados Unidos de 2016.
     """
 
-    print(sumirize_with_ollama(information))
+    print(summarize_with_gemini(information))
 
 
 if __name__ == "__main__":
