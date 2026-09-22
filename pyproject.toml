@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "MateoDev97", email = "mateo972000@gmail.com" }
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "black>=25.11.0",
     "isort>=6.1.0",
@@ -21,3 +21,6 @@ section2 = "section2:main"
 [build-system]
 requires = ["uv_build>=0.12.11,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv]
+package = false
